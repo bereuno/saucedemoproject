@@ -1,8 +1,8 @@
 import test, {Locator, Page, expect} from "@playwright/test"
-import {BasePage} from "../pages/base-page"
-import {InventoryPage} from "../pages/inventory-page"
-import {CartPage} from "../pages/cart-page"
-import {CheckoutPage} from "../pages/checkout-page"
+import {BasePage} from "../../pages/base-page"
+import {InventoryPage} from "../../pages/inventory-page"
+import {CartPage} from "../../pages/cart-page"
+import {CheckoutPage} from "../../pages/checkout-page"
 
 const url = 'https://www.saucedemo.com/'
 let basePage: BasePage;

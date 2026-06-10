@@ -10,6 +10,11 @@
   "type": "commonjs",
   "devDependencies": {
     "@playwright/test": "^1.60.0",
-    "@types/node": "^25.9.1"
+    "@types/node": "^25.9.2",
+    "ajv": "^8.20.0",
+    "genson-js": "^0.0.8"
+  },
+  "dependencies": {
+    "csv-parse": "^6.2.1"
   }
 }
